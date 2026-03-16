@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krish Naik Gaunekar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <span class="loader-brand">KNG</span>
+    <div id="loader-bar-wrap">
+      <div id="loader-bar"></div>
+    </div>
+    <span id="loader-percent">0%</span>
+  </div>
+
+  <!-- Fixed Header -->
+  <header class="site-header">
+    <a class="logo" href="#">KNG</a>
+    <nav>
+      <a href="#about-anchor">About</a>
+      <a href="#contact-anchor">Contact</a>
+      <a href="https://www.linkedin.com/in/krish-naik-gaunekar" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </header>
+
+  <!-- Hero — standalone 100vh -->
+  <section class="hero-standalone" id="hero">
+    <img class="hero-headshot" src="krish_headshot.jpg" alt="Krish Naik Gaunekar" />
+    <div class="hero-inner">
+      <span class="section-label">Electrical Engineer · NC State University</span>
+      <h1 class="hero-heading">
+        <span class="hero-word">Krish</span>
+        <span class="hero-word">Naik</span>
+        <span class="hero-word">Gaunekar</span>
+      </h1>
+      <p class="hero-tagline">Honors Program · Dean's List · Class of 2029</p>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <svg width="16" height="24" viewBox="0 0 16 24" fill="none">
+        <path d="M8 0v20M1 13l7 7 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Canvas (fixed, full viewport) -->
+  <div class="canvas-wrap" id="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Dark overlay for stats section -->
+  <div id="dark-overlay"></div>
+
+  <!-- Marquee (fixed layer) -->
+  <div class="marquee-wrap" id="marquee-wrap" data-scroll-speed="-30">
+    <p class="marquee-text">ELECTRICAL ENGINEERING &nbsp;·&nbsp; MACHINE LEARNING &nbsp;·&nbsp; LEADERSHIP &nbsp;·&nbsp; ELECTRICAL ENGINEERING &nbsp;·&nbsp; MACHINE LEARNING &nbsp;·&nbsp; LEADERSHIP &nbsp;·&nbsp;</p>
+  </div>
+
+  <!-- Scroll Container -->
+  <div id="scroll-container">
+
+    <!-- 001 / Education -->
+    <section id="about-anchor"
+             class="scroll-section section-content align-left"
+             data-enter="8" data-leave="22" data-animation="fade-up">
+      <div class="section-inner">
+        <span class="section-label">001 / Education</span>
+        <h2 class="section-heading">Curious<br>Engineer.</h2>
+        <p class="section-body"><strong>NC State University</strong> — BS Electrical Engineering<br>GPA 4.8 &nbsp;·&nbsp; Honors Program &nbsp;·&nbsp; Dean's List Fall '25<br>Anticipated May 2029</p>
+        <p class="section-body" style="margin-top:1rem;"><strong>NCSSM</strong> — Durham, NC &nbsp;·&nbsp; GPA 4.93<br>Electric Circuits &nbsp;·&nbsp; Intro to Signals &nbsp;·&nbsp; Circuits &amp; Systems &nbsp;·&nbsp; Calculus<br>Graduated May 2025</p>
+      </div>
+    </section>
+
+    <!-- 002 / Skills -->
+    <section class="scroll-section section-content align-right"
+             data-enter="24" data-leave="46" data-animation="slide-right">
+      <div class="section-inner">
+        <span class="section-label">002 / Skills</span>
+        <h2 class="section-heading">Built<br>to Build.</h2>
+        <p class="section-body">Python &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; SQL &nbsp;·&nbsp; R</p>
+        <p class="section-note" style="margin-top:1rem; color: var(--ink-muted);">Purdue University — Machine Learning Certified (2024)</p>
+        <p class="section-note" style="margin-top:0.5rem; color: var(--ink-muted);">NC State Make-A-Thon 2026 — Finalist</p>
+      </div>
+    </section>
+
+    <!-- 003 / Experience -->
+    <section class="scroll-section section-content align-left"
+             data-enter="40" data-leave="55" data-animation="slide-left">
+      <div class="section-inner">
+        <span class="section-label">003 / Experience</span>
+        <h2 class="section-heading">Work &amp;<br>Leadership.</h2>
+        <p class="section-body"><strong>Consultant</strong> — 180 Degrees Consulting <span class="section-note" style="display:inline;">Fall 2025–Present</span><br>Selected through a highly competitive multi-round process at the largest consulting nonprofit club.</p>
+        <p class="section-body" style="margin-top:0.9rem;"><strong>Business Outreach</strong> — SolarPack <span class="section-note" style="display:inline;">Fall 2025–Present</span><br>Raising funding for solar car competitions.</p>
+        <p class="section-body" style="margin-top:0.9rem;"><strong>Head Recruiter</strong> — Firstgenflourishing Nonprofit <span class="section-note" style="display:inline;">2024–Present</span><br>Essay editing, SAT tutoring, and scholarship fundraising.</p>
+        <p class="section-body" style="margin-top:0.9rem;"><strong>Sales Executive</strong> — Diamond Grocery Store <span class="section-note" style="display:inline;">Summer '22 &amp; '24</span><br>Sales, customer service, and backend delivery tracking.</p>
+        <p class="section-body" style="margin-top:0.9rem;"><strong>Residential Living Assistant</strong> — NCSSM <span class="section-note" style="display:inline;">2024–2025</span><br>Resident well-being and hall activity planning.</p>
+        <p class="section-body" style="margin-top:0.9rem;"><strong>Junior Instructor</strong> — Tiger Kim's Taekwondo <span class="section-note" style="display:inline;">2019–2022</span><br>Instructor and demonstration team member.</p>
+      </div>
+    </section>
+
+    <!-- 004 / Stats (dark overlay) -->
+    <section class="scroll-section section-stats"
+             data-enter="56" data-leave="72" data-animation="stagger-up">
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-number" data-value="4.8" data-decimals="1">0</span>
+          <span class="stat-label">GPA at NC State</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-value="4.93" data-decimals="2">0</span>
+          <span class="stat-label">GPA at NCSSM</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-value="9" data-decimals="0">0</span>
+          <span class="stat-suffix">yrs</span>
+          <span class="stat-label">Taekwondo</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-value="6" data-decimals="0">0</span>
+          <span class="stat-suffix">+</span>
+          <span class="stat-label">Roles Held</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 005 / Activities -->
+    <section class="scroll-section section-content align-right"
+             data-enter="74" data-leave="86" data-animation="rotate-in"
+             style="padding-left: calc(55vw + 300px);">
+      <div class="section-inner">
+        <span class="section-label">005 / Activities</span>
+        <h2 class="section-heading">Beyond the<br>Classroom.</h2>
+        <p class="section-body">Varsity Track &amp; Field &nbsp;·&nbsp; EV Club Vice Captain &nbsp;·&nbsp; Speech &amp; Debate &nbsp;·&nbsp; Varsity Tennis &nbsp;·&nbsp; Club Soccer &nbsp;·&nbsp; Tae Kwon Do</p>
+        <p class="section-note" style="margin-top:1rem;">NCSSM 2023–2025 &nbsp;·&nbsp; 9 years martial arts</p>
+      </div>
+    </section>
+
+    <!-- 006 / Contact CTA (persists) -->
+    <section id="contact-anchor"
+             class="scroll-section section-cta"
+             data-enter="88" data-leave="100" data-animation="clip-reveal" data-persist="true">
+      <div class="section-inner cta-inner">
+        <span class="section-label">005 / Contact</span>
+        <h2 class="section-heading cta-heading">Let's<br>Connect.</h2>
+        <a class="cta-email" href="mailto:krish.gaunekar@gmail.com">krish.gaunekar@gmail.com</a>
+        <a class="cta-button" href="https://www.linkedin.com/in/krish-naik-gaunekar" target="_blank" rel="noopener">View LinkedIn →</a>
+      </div>
+    </section>
+
+  </div><!-- /scroll-container -->
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
