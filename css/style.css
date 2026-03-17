@@ -109,7 +109,7 @@ body {
 }
 
 .site-header nav a {
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -140,7 +140,7 @@ body {
 
 .hero-inner .section-label {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -166,7 +166,7 @@ body {
 
 .hero-tagline {
   margin-top: 2rem;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -302,7 +302,7 @@ body {
 ───────────────────────────────────────────── */
 .section-label {
   display: block;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -320,7 +320,7 @@ body {
 }
 
 .section-body {
-  font-size: clamp(0.9rem, 1.2vw, 1.05rem);
+  font-size: clamp(1.05rem, 1.4vw, 1.25rem);
   line-height: 1.75;
   color: var(--ink-muted);
   font-weight: 400;
@@ -329,7 +329,7 @@ body {
 
 .section-note {
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.06em;
   color: var(--ink-faint);
@@ -376,7 +376,7 @@ body {
 }
 
 .stat-label {
-  font-size: 0.72rem;
+  font-size: 0.88rem;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -407,7 +407,7 @@ body {
 
 .cta-email {
   display: block;
-  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  font-size: clamp(1.05rem, 1.75vw, 1.3rem);
   font-weight: 400;
   letter-spacing: 0.06em;
   color: var(--ink);
@@ -422,7 +422,7 @@ body {
   display: inline-block;
   padding: 0.9rem 2.5rem;
   border: 1.5px solid var(--ink);
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
