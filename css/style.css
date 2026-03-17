@@ -182,8 +182,7 @@ body {
   width: clamp(352px, 38vw, 544px);
   height: clamp(352px, 38vw, 544px);
   border-radius: 0;
-  object-fit: cover;
-  object-position: center top;
+  object-fit: contain;
   opacity: 0;
   will-change: opacity, transform;
 }
